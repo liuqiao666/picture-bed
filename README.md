@@ -1,4 +1,4 @@
-# picture-bed
+﻿# picture-bed
 
 ## 借助AE图床搭建的-morly图床-源码送给大家
 
@@ -14,4 +14,4 @@
 
 ## 最实用桌面软件、手机APP分享；工作学习最佳工具分享；影视、书籍、学习资源共享，共同进步。
 
-<div align=center>![](https://morly-1257895504.cos.ap-chengdu.myqcloud.com/dzl.gif)
+## 微信关注公众号：[ 道智乐生活 ]
