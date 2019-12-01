@@ -48,7 +48,7 @@ layui.use(['form','upload'], function(){
             var percent = n + '%';
             layui.element.progress('demo', percent);
             if (n==100){
-                layer.alert('已经上传成功，正在做鉴黄检测。', {
+                layer.alert('已经上传成功，正在做图片检测。', {
                     skin: 'layui-layer-molv'
                     ,closeBtn: 0
                 });
@@ -77,24 +77,11 @@ layui.use(['form','upload'], function(){
         }
     });
 });
-$("#pay").click(function () {
-    // layer.open({
-    //     type: 1
-    //     ,title: "捐赠" //不显示标题栏
-    //     ,closeBtn: false
-    //     ,area: '300px;'
-    //     ,shade: 0.8
-    //     ,id: 'LAY_layuipro' //设定一个id，防止重复弹出
-    //     ,resize: false
-    //     ,btn: ['残忍拒绝']
-    //     ,btnAlign: 'c'
-    //     ,moveType: 1
-    //     ,content: '<div class="layui-tab layui-tab-brief"><ul class="layui-tab-title"><li class="layui-this">QQ</li><li>微信</li><li>支付宝</li></ul><div class="layui-tab-content""><div class="layui-tab-item layui-show"><img src="https://icon.qiantucdn.com/20190925/fb3a81ede3a646f90fd74f7dd9011e2a2" width="100%"></div><div class="layui-tab-item"><img src="https://icon.qiantucdn.com/20190925/762220b6fa31056dcb7b74e5e437db712" width="100%"></div><div class="layui-tab-item"><img src="https://icon.qiantucdn.com/20190925/e3c490501842f5e84601b82aaede18d62" width="100%"></div></div></div>'
-    // });
+$("#more").click(function () {
     layer.open({
-        title:"捐赠(QQ 微信 支付宝)",
+        title:"更多精彩请关注微信公众号[道智乐生活]",
         type: 2,
-        area: ['95%', '95%'],
+        area: ['34%', '61%'],
         shade: 0.8,
         fixed: true,
         resize: false,
@@ -103,11 +90,7 @@ $("#pay").click(function () {
         scrollbar: false,
         btnAlign: 'c',
         moveType: 1,
-        content: "https://tu.aelq.com/1.html",
-        btn:['残忍拒绝'],
-        yes:function () {
-            layer.closeAll();
-        }
+        content: "https://cdn.u1.huluxia.com/g3/M02/65/29/wKgBOV3jZOqAbXahAAEdg8OqgUs3925.no"
     });
 });
 
